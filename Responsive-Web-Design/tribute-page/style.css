@@ -1,23 +1,26 @@
-html,body{
+html,body {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   text-align: center;
   min-width: 260px;
   color: #333;
 }
-#main{
+
+#main {
   margin: 30px auto;
   padding: 15px;
   border: 0px solid;
   border-radius: 5px;
   background: #eee;
 }
-img{
+
+img {
   max-width: 100%; 
   display: block; 
   height: auto;
   margin: auto;
 }
-#img-div{
+
+#img-div {
   margin-top: 20px;
   width: 50%;
   border: 5px solid #FB4F14;
@@ -26,21 +29,26 @@ img{
   margin-left: auto;
   margin-right: auto;
 }
-#img-caption{
+
+#img-caption {
   margin: 15px;
 }
-#headline{
+
+#headline {
   margin-top: 50px;
   text-align: left;
 }
-ul{
+
+ul {
   max-width: 550px;
   margin: 0 auto;
   text-align: left;
 }
-li{
+
+li {
   margin: 10px;
 }
-blockquote{
+
+blockquote {
   font-style: italic;
 }
