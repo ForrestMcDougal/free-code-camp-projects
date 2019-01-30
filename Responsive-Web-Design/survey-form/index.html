@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <h1 id="title">Stuff or Things?</h1>
+  <div id="form-outer">
+    <p id="description">Are you dealing with stuff or things?</p>
+    <form id="survey-form">
+    <div class="rowTab">
+      <div class="labels">
+        <label id="name-label" for="name">* Name: </label>
+      </div>
+      <div class="rightTab">
+        <input autofocus type="text" name="name" id="name" class="input-field" placeholder="Enter your name" required>
+      </div>
+    </div>
+    <div class="rowTab">
+      <div class="labels">
+        <label id="email-label" for="email">* Email: </label>
+      </div>
+      <div class="rightTab">
+        <input type="email" name="email" id="email" class="input-field" placeholder="Enter your Email" required>
+      </div>
+    </div>
+    <div class="rowTab">
+      <div class="labels">
+        <label id="number-label" for="age">* Age: </label>
+      </div>
+      <div class="rightTab">
+        <input type="number" name="age" id="number" min="1" max="125" class="input-field" placeholder="Age">
+      </div>
+    </div>
+    <div class="rowTab">
+      <div class="labels">
+        <label for="stuffThing">Which option describes your object</label>
+      </div>
+      <div class="rightTab">
+        <select id="dropdown" name="stuffThing" class="dropdown">
+          <option disabled value>Select an option</option>
+          <option value="stuff">Stuff</option>
+          <option value="thing">Thing</option>
+          <option value="stuff-thing">Stuff and Thing</option>
+          <option value="thing-stuff">Thing and Stuff</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+    </div>
+    <div class="rowTab">
+      <div class="labels">
+        <label for="userRating">* Do you prefer stuff or things?</label>
+      </div>
+      <div class="rightTab">
+        <ul style="list-style: none;">
+          <li class="radio"><label>Stuff<input name="radiobuttons" value="1" type="radio" class="userRatings"></label></li>
+          <li class="radio"><label>Things<input name="radiobuttons" value="2" type="radio" class="userRatings"></label></li>
+          <li class="radio"><label>Niether<input name="radiobuttons" value="3" type="radio" class="userRatings"></label></li>
+          <li class="radio"><label>Both<input name="radiobuttons" value="4" type="radio" class="userRatings"></label></li>
+        </ul>
+      </div>
+    </div>
+    <div class="rowTab">
+      <div class="labels">
+        <label for="preferences">What would you buy if you could buy it for the rest of eternity?<br>(Check all that apply): </label>
+      </div>
+      <div class="rightTab">
+        <ul id="preferences" style="list-style: none;">
+          <li class="checkbox"><label><input name="prefer" value="1" type="checkbox" class="userRatings">Stuff only</label></li>
+          <li class="checkbox"><label><input name="prefer" value="2" type="checkbox" class="userRatings">Things only</label></li>
+          <li class="checkbox"><label><input name="prefer" value="3" type="checkbox" class="userRatings">Thingy stuff</label></li>
+          <li class="checkbox"><label><input name="prefer" value="4" type="checkbox" class="userRatings">Stuffy things</label></li>
+        </ul>
+      </div>
+    </div>
+    <div class="rowTab">
+      <div class="labels">
+        <label for="comments">Any comments?</label>
+      </div>
+      <div class="rightTab">
+        <textarea id="comments" class="input-field" style="height:50px;resize:vertical;" name="comment" placeholder="Enter your comment here..."></textarea>
+      </div>
+    </div>
+    <button id="submit" type="submit">Submit</button>
+  </form>
+  </div>
+<html>
